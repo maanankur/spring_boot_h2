@@ -1,4 +1,4 @@
-package com.devglan.controller;
+package com.topic.controller;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devglan.model.TopicDetails;
-import com.devglan.model.TopicResponse;
-import com.devglan.service.TopicService;
+import com.topic.model.TopicDetails;
+import com.topic.model.TopicResponse;
+import com.topic.service.TopicService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -27,16 +27,16 @@ public class TopicController {
 	
 	@RequestMapping(value = "/list", method = RequestMethod.GET)
 	@ApiOperation("Topic Details")
-	public ResponseEntity<List<TopicDetails>> topicDetails() {
+	public ResponseEntity<List<TopicResponse>> topicDetails() {
         
-		List<TopicDetails> topicDetails = topicService.getTopicDetails();
-		return new ResponseEntity<List<TopicDetails>>(topicDetails, HttpStatus.OK);
+		List<TopicResponse> topicDetails = topicService.getTopicDetails();
+		return new ResponseEntity<List<TopicResponse>>(topicDetails, HttpStatus.OK);
 	}
 	
 	@PostMapping("/topics")
 	@ApiOperation("Create Topics Structure")
-	public ResponseEntity<List<TopicDetails>> createTopics() {
-		return new ResponseEntity<List<TopicDetails>>(topicService.createTopics(), HttpStatus.OK);
+	public ResponseEntity<List<TopicResponse>> createTopics() {
+		return new ResponseEntity<List<TopicResponse>>(topicService.createTopics(), HttpStatus.OK);
 	}
 	
 	@GetMapping(value = "/linkedTopicsWithThree")
@@ -49,6 +49,12 @@ public class TopicController {
 	@ApiOperation("Get Topic linked with 1 topic and 1 child")
 	public ResponseEntity<List<TopicResponse>> oneParentOneChild() {
 		return new ResponseEntity<List<TopicResponse>>(topicService.oneParentOneChild(), HttpStatus.OK);
+	}
+	
+	@GetMapping(value = "/topicsAtThirdPlace")
+	@ApiOperation("Get Topic linked with 1 topic and 1 child")
+	public ResponseEntity<List<TopicResponse>> topicsAtThirdPlace() {
+		return new ResponseEntity<List<TopicResponse>>(topicService.topicsAtThirdPlace(), HttpStatus.OK);
 	}
 
 }

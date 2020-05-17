@@ -1,4 +1,4 @@
-package com.devglan.model;
+package com.topic.model;
 
 import java.io.Serializable;
 import java.util.HashSet;

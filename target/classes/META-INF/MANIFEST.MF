@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Implementation-Title: TopicApp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ankur.maan
+Implementation-Vendor-Id: com.devglan
+Class-Path: lib/spring-boot-starter-web-2.1.15.BUILD-SNAPSHOT.jar lib/
+ spring-boot-starter-2.1.15.BUILD-SNAPSHOT.jar lib/spring-boot-2.1.15.
+ BUILD-SNAPSHOT.jar lib/spring-boot-autoconfigure-2.1.15.BUILD-SNAPSHO
+ T.jar lib/spring-boot-starter-logging-2.1.15.BUILD-SNAPSHOT.jar lib/l
+ ogback-classic-1.2.3.jar lib/logback-core-1.2.3.jar lib/log4j-to-slf4
+ j-2.11.2.jar lib/log4j-api-2.11.2.jar lib/jul-to-slf4j-1.7.30.jar lib
+ /spring-core-5.1.15.RELEASE.jar lib/spring-jcl-5.1.15.RELEASE.jar lib
+ /snakeyaml-1.23.jar lib/spring-boot-starter-json-2.1.15.BUILD-SNAPSHO
+ T.jar lib/jackson-databind-2.9.10.4.jar lib/jackson-core-2.9.10.jar l
+ ib/jackson-datatype-jdk8-2.9.10.jar lib/jackson-datatype-jsr310-2.9.1
+ 0.jar lib/jackson-module-parameter-names-2.9.10.jar lib/hibernate-val
+ idator-6.0.19.Final.jar lib/validation-api-2.0.1.Final.jar lib/jboss-
+ logging-3.3.3.Final.jar lib/spring-web-5.1.15.RELEASE.jar lib/spring-
+ beans-5.1.15.RELEASE.jar lib/spring-webmvc-5.1.15.RELEASE.jar lib/spr
+ ing-aop-5.1.15.RELEASE.jar lib/spring-context-5.1.15.RELEASE.jar lib/
+ spring-expression-5.1.15.RELEASE.jar lib/spring-boot-starter-tomcat-2
+ .1.15.BUILD-SNAPSHOT.jar lib/javax.annotation-api-1.3.2.jar lib/tomca
+ t-embed-core-9.0.34.jar lib/tomcat-embed-el-9.0.34.jar lib/tomcat-emb
+ ed-websocket-9.0.34.jar lib/h2-1.4.200.jar lib/spring-boot-starter-da
+ ta-jpa-2.1.15.BUILD-SNAPSHOT.jar lib/spring-boot-starter-aop-2.1.15.B
+ UILD-SNAPSHOT.jar lib/aspectjweaver-1.9.5.jar lib/spring-boot-starter
+ -jdbc-2.1.15.BUILD-SNAPSHOT.jar lib/HikariCP-3.2.0.jar lib/spring-jdb
+ c-5.1.15.RELEASE.jar lib/javax.transaction-api-1.3.jar lib/jaxb-api-2
+ .3.1.jar lib/javax.activation-api-1.2.0.jar lib/hibernate-core-5.3.17
+ .Final.jar lib/javax.persistence-api-2.2.jar lib/javassist-3.23.2-GA.
+ jar lib/byte-buddy-1.9.16.jar lib/antlr-2.7.7.jar lib/jandex-2.0.5.Fi
+ nal.jar lib/dom4j-2.1.3.jar lib/hibernate-commons-annotations-5.0.4.F
+ inal.jar lib/jaxb-runtime-2.3.1.jar lib/txw2-2.3.1.jar lib/istack-com
+ mons-runtime-3.0.7.jar lib/stax-ex-1.8.jar lib/FastInfoset-1.2.15.jar
+  lib/spring-data-jpa-2.1.17.RELEASE.jar lib/spring-data-commons-2.1.1
+ 7.RELEASE.jar lib/spring-orm-5.1.15.RELEASE.jar lib/spring-tx-5.1.15.
+ RELEASE.jar lib/spring-aspects-5.1.15.RELEASE.jar lib/springfox-swagg
+ er2-2.6.1.jar lib/swagger-annotations-1.5.10.jar lib/swagger-models-1
+ .5.10.jar lib/jackson-annotations-2.9.10.jar lib/springfox-spi-2.6.1.
+ jar lib/springfox-core-2.6.1.jar lib/springfox-schema-2.6.1.jar lib/s
+ pringfox-swagger-common-2.6.1.jar lib/springfox-spring-web-2.6.1.jar 
+ lib/guava-18.0.jar lib/classmate-1.4.0.jar lib/slf4j-api-1.7.30.jar l
+ ib/spring-plugin-core-1.2.0.RELEASE.jar lib/spring-plugin-metadata-1.
+ 2.0.RELEASE.jar lib/mapstruct-1.0.0.Final.jar lib/springfox-swagger-u
+ i-2.6.1.jar
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/TopicApp
+Created-By: Maven Integration for Eclipse
+Main-Class: com.topic.TopicApplication
+

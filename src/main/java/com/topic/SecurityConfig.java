@@ -1,4 +1,4 @@
-package com.devglan;
+package com.topic;
 
 //@Configuration
 public class SecurityConfig /*extends WebSecurityConfigurerAdapter*/ {
