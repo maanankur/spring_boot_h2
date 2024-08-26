@@ -16,7 +16,7 @@
     <properties>
 		<java.version>1.8</java.version>
 		<spring-fox-version>2.6.1</spring-fox-version>
-		<spring-swagger-version>2.6.1</spring-swagger-version>
+		<spring-swagger-version>2.10.0</spring-swagger-version>
 	</properties>
     
     <dependencies>
